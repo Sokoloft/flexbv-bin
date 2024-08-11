@@ -1,9 +1,9 @@
 [Desktop Entry]
+Version=1.0
 Type=Application
 Name=FlexBV Free
 Comment=FlexBV Free Professional Boardview. View brd files.
-Path=/opt/flexbv
-Exec=flexbv
+Exec=/usr/bin/flexbv
 Icon=flexbv-free-icon.svg
 Terminal=false
 Categories=Development
