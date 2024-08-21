@@ -1,16 +1,15 @@
 # Maintainer Sokoloft https://www.sokoloft.xyz/contact/
 # Contributor greyltc
 # Contributor piernov
-# Forked from "flexbv-bin" and modified
 
-pkgname=flexbv-free
+pkgname=flexbv-bin
 pkgver=5.0373
 pkgrel=1
 pkgdesc="FlexBV Free. Professional Boardview Software."
 arch=('x86_64')
 url="https://pldaniels.com/flexbv5/"
 license=('custom')
-conflicts=('flexbv-beta-bin' 'flexbv-bin' 'flexbv-unstable-bin')
+conflicts=()
 depends=('sdl2' 'fontconfig' 'sqlite' 'zlib' 'gtk3' 'libpng')
 makedepends=()
 source=("${pkgname}-${pkgver}.tar.gz::https://pldaniels.com/flexbv5/free/FlexBVFree-${pkgver}-linux.tar.gz"
